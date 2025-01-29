@@ -18,3 +18,6 @@ player_name = input("What is your name, adventurer?")
 
 # Concatenate strings to create a personalized message
 print("Welcome, " + player_name + "! Your journey begins now.")
+
+# Use an f-string to display the same message in a more readable way
+print(f"Welcome, {player_name}!Your journey begins now.")
