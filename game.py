@@ -21,3 +21,15 @@ print("Welcome, " + player_name + "! Your journey begins now.")
 
 # Use an f-string to display the same message in a more readable way
 print(f"Welcome, {player_name}!Your journey begins now.")
+
+# Describe the starting area
+starting_area = '''
+You find yourself in a dark forest.
+The sound of rustling leaves fills the air.
+A faint path lies ahead, leading deeper into the unkown...
+'''
+print(starting_area)
+
+# Ask the player for their first decision
+decision = input("Do you wish to take the path? (yes or no):").lower ()
+
