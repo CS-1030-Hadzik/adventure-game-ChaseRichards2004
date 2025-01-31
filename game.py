@@ -20,7 +20,7 @@ player_name = input("What is your name, adventurer?")
 print("Welcome, " + player_name + "! Your journey begins now.")
 
 # Use an f-string to display the same message in a more readable way
-print("Welcome, {player_name}!Your journey begins now.")
+print(f"Welcome, {player_name}! Your journey begins now.")
 
 # Describe the starting area
 starting_area = '''
@@ -35,7 +35,7 @@ decision = input("Do you wish to take the path? (yes or no):").lower ()
 
 # Respond based on the player's decision
 if decision == "yes":
-    print("Brave choice,{player_name}! you step onto the path and venture forward.")
+    print(f"Brave choice,{player_name}! you step onto the path and venture forward.")
 elif decision == "no":
     print(player_name + ", you decide to wait. perhaps courage will find you later.")
 # Concatenation example
